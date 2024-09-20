@@ -1,0 +1,41 @@
+.MB-h2{
+    position: relative;
+    top:0 px;
+}
+.form-MB {
+  margin-bottom: 280px;
+  position: relative;
+  top:10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-MB {
+    width:30%;
+    display: block;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.25rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #c5b2b2;
+    border-radius: 4px;
+  }
+  
+  .btn-MB {
+    width:30%;
+    padding: 8px;
+    margin: 10px 0;
+    border: none;
+    background-color: #6b46c1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-MB:hover {
+    background-color: #724bb7;
+  }
