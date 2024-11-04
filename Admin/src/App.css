@@ -1,0 +1,297 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  /* justify-content: center; */
+  padding-left: 150px;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-right: 1px solid #ccc; /* Add border to separate sidebar from content */
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  
+  li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  }
+  
+  li a:hover {
+    background-color: #ccc;
+  }
+  
+  .appointment:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+  }
+  
+    
+    .appointment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    
+
+     
+    .active {
+      background-color: #ccc;
+      }
+      
+      .service {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      }
+      
+      .edit-btn {
+      background-color: #007bff;
+      color: #fff;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+      }
+
+        .report {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        }
+        
+        .report h2 {
+        margin-bottom: 10px;
+        }
+        
+        ul {
+        padding: 0;
+        }
+        
+        ul li {
+        list-style-type: none;
+        margin-left: 20px;
+        } 
+
+        .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* adminlink */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cancel-btn {
+  background-color: #f44336; /* Red color for cancel button */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin:4px 4px;
+}
+
+
+.acceptButton {
+  background-color: #4CAF50; /* Green color for accept button */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.appointment {
+  flex: 1 1 200px; /* Set flexible width for the child elements */
+   padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.appointment:hover {
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 768px) {
+  .appointment{
+      flex-basis: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .appointment {
+      flex-basis: calc(100% - 20px);
+  }
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 768px) {
+    .col {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .col {
+        flex-basis: 100%;
+    }
+}
+
+.btn {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    color: #fff;
+    background-color: #f8d0e0;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff5da2;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.text-center {
+    text-align: center;
+}

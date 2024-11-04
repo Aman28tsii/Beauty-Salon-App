@@ -1,0 +1,70 @@
+
+body {
+  background-color : rgba(255, 255, 255, 0.5);
+ font-family: Arial, sans-serif;
+
+}
+
+h2{ 
+   color: rgb(240, 138, 138);
+   font-size: 4rem;
+ margin-bottom: 30px;}
+.aboutWelcom{
+position: absolute;
+top:160px;
+left: 260px;
+}
+
+#Aboutpage{
+  background-image: url(https://media.istockphoto.com/id/1352840704/photo/portrait-of-an-attractive-young-woman-applying-moisturiser-against-a-grey-background.jpg?s=612x612&w=0&k=20&c=z6cfjfErGPXFe3QtSoDy3MCf45ZlNowHA-xhfTVizLw=); 
+  background-size: cover;
+  width: 75%
+}
+
+.about-section { 
+font-size: 0.9rem;
+color: #434445;
+line-height: 1.5;
+
+}
+
+.logo{
+position: absolute;
+top:40px;
+left:30px;
+}
+.about-contain{
+  position: relative;
+  top: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.A1{
+  width: 50%;
+  display: inline-block;
+  flex: 0 0 auto;
+  justify-content: center;
+  align-items: center;
+
+}
+.blog .container{
+position: relative;
+top: 200px;
+}
+.main-footer{
+position: relative;
+top: 50px;
+}
+.contact{
+color: rgb(221, 195, 195);
+}
+
+.col-12 col-md-10 col-xl-5{
+background-image:  url(https://images.squarespace-cdn.com/content/v1/60420d26b68a5453a86a08d0/1667228489252-WKHVYDKFGZX6JEJQB4N5/winter+skincare.jpg);
+ background-size: contain;
+ width: 75%;
+}
+
+/* You can customize the styles and content of the page as needed to fit the branding and messaging of the beauty salon. */
